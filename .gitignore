@@ -1,0 +1,10 @@
+### VS Code ###
+.vscode/
+
+### Maven ###
+target/
+.mvn/
+mvnw**
+
+### Application ###
+src/main/resources/static/
