@@ -13,6 +13,6 @@ Further information on the topic of build containers:
 - https://www.docker.com/blog/9-tips-for-containerizing-your-spring-boot-code/
 - https://hub.docker.com/_/openjdk
 
-# Requests when everything is running
+## Requests when everything is running
 
 - http://localhost:8082/ -> für Docker container
