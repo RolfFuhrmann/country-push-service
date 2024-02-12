@@ -15,4 +15,12 @@ Further information on the topic of build containers:
 
 ## Requests when everything is running
 
-- http://localhost:8082/ -> für Docker container
+- In Docker http://localhost:8082
+- local -> http://localhost:8080
+
+## Testing
+
+Alle Endpoints können mit Insomnia getestet werden
+
+- Hinzufügen eines neuen WS Request mit: ws://localhost:8080/websocket und dann Button Connect drücken.
+- Hinzufügen eines neuen POST Request mit: http://localhost:8080/send/country
