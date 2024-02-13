@@ -12,10 +12,10 @@ import rf.country.push.model.Country;
 
 @Slf4j
 @Controller
-@RequestMapping("/send")
+@RequestMapping("/country")
 public class PushController {
 
-    @PostMapping("/country")
+    @PostMapping("/change")
     @ResponseStatus(HttpStatus.OK)
     public void country(@RequestBody Country country) {
         log.info("{}.country {}", PushController.class.getName(), country.toString());

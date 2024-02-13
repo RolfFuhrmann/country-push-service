@@ -1,5 +1,0 @@
-server:
-  port: 8082
-websocket:
-  stomp:
-    endpoint: ws://localhost:8082/push/country
