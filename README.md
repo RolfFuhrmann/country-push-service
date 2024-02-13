@@ -20,7 +20,7 @@ Further information on the topic of build containers:
 
 ## Testing
 
-Alle Endpoints können mit Insomnia getestet werden
+All endpoints can be tested manually using the URLs below (with Insomnia, Postman etc.). The prerequisite is that the service is started locally.
 
-- Hinzufügen eines neuen WS Request mit: ws://localhost:8080/websocket und dann Button Connect drücken.
-- Hinzufügen eines neuen POST Request mit: http://localhost:8080/send/country
+- Add a new WS request to test the WebSocketController: ws://localhost:8080/websocket and then press the 'Connect' button.
+- Add a new POST request to test the PushController: http://localhost:8080/send/country.
